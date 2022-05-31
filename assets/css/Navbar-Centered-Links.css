@@ -1,0 +1,237 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+.navbar {
+  background-color: #2c3134;
+}
+
+.dropdown-item {
+  color: white;
+  background-color: #2c3134;
+}
+
+.navbar-bar {
+}
+
+.navbar span {
+  color: white;
+}
+
+.dropdown-menu {
+  background-color: #2c3134;
+}
+
+#event {
+  text-align: center;
+  padding: 160px;
+  background: url("../../assets/img/Accueil/strong-man-training-in-gym.jpg") no-repeat;
+}
+
+.text-section {
+  background-color: rgba(44,49,52,0.75);
+  padding: 40px;
+  border-radius: 20px;
+  color: white;
+}
+
+.gallery {
+  padding-top: 40px;
+}
+
+footer #rdv {
+  margin-top: 40vh;
+}
+
+#musculation {
+  background: url("../../assets/img/Activites%20sportives/victor-freitas-WvDYdXDzkhs-unsplash.jpg") no-repeat center;
+  padding: 140px;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  min-width: 900px;
+  max-width: 1300px;
+}
+
+#collapse-1 {
+  padding: 20px;
+  background-color: rgba(44,49,52,0.75);
+  max-width: 1300px;
+  min-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.row .btn {
+  margin-top: 30px;
+}
+
+#fitness {
+  background: url("../../assets/img/Activites%20sportives/fitness%20image.jpg") no-repeat center;
+  padding: 140px;
+}
+
+#biking {
+  background: url("../../assets/img/Activites%20sportives/coen-van-de-broek-OFyh9TpMyM8-unsplash.jpg") no-repeat center;
+  padding: 140px;
+}
+
+#cardio-training {
+  background: url("../../assets/img/Activites%20sportives/628b409d18fdc.jpg") no-repeat center;
+  padding: 140px;
+}
+
+#group-training {
+  background: url("../../assets/img/Activites%20sportives/group-training%20image.jpg") no-repeat center;
+  padding: 140px;
+}
+
+#collapse-3 {
+  padding: 20px;
+  background-color: rgba(44,49,52,0.75);
+  max-width: 1300px;
+  min-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#collapse-4 {
+  padding: 20px;
+  background-color: rgba(44,49,52,0.75);
+  max-width: 1300px;
+  min-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#collapse-5 {
+  padding: 20px;
+  background-color: rgba(44,49,52,0.75);
+  max-width: 1300px;
+  min-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#collapse-6 {
+  padding: 20px;
+  background-color: rgba(44,49,52,0.75);
+  max-width: 1300px;
+  min-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+#basketball {
+  background: url("../../assets/img/Sports%20competitions/basketball%20image.jpg") no-repeat bottom;
+  padding: 120px;
+}
+
+#football {
+  background: url("../../assets/img/Sports%20competitions/ballon-foot%20image.jpg") no-repeat center;
+  padding: 120px;
+}
+
+#rugby {
+  background: url("../../assets/img/Sports%20competitions/rugby-ball%20image%20(2).jpg") no-repeat center;
+  padding: 120px;
+}
+
+#tennis {
+  background: url("../../assets/img/Sports%20competitions/tennis%20ball%20image.jpg") no-repeat center;
+  padding: 120px;
+}
+
+#natation {
+  background: url("../../assets/img/Sports%20competitions/natation%20image.jpg") no-repeat center;
+  padding: 120px;
+}
+
+#plongeon {
+  background: url("../../assets/img/Sports%20competitions/plongeon%20image.jpg") no-repeat center;
+  padding: 120px;
+}
+
+#collapse-2 {
+  padding: 20px;
+  background-color: rgba(44,49,52,0.75);
+  max-width: 1300px;
+  min-width: 900px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.rdv {
+  margin-top: 40vh;
+}
+
+section #map {
+  /*background: #2e323c;*/
+}
+
+form {
+  background: white;
+  border-radius: 10px;
+}
+
+.map-contact {
+  background: #2e323c;
+}
+
